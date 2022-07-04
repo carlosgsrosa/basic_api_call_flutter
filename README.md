@@ -1,16 +1,27 @@
-# basic_api_call_flutter
+# Basic API call (Flutter)
 
-A new Flutter project.
+# All you need is here:
 
-## Getting Started
+## Please be sure to follow all the instructions bellow:
 
-This project is a starting point for a Flutter application.
+  This project is using FVM (Flutter Version Management) with **Flutter 3.0.4** version, if you don't have it please configure your dev environment following official documentation here [fvm](https://fvm.app/docs/getting_started/overview)
 
-A few resources to get you started if this is your first Flutter project:
+  > Install FVM: [download](https://fvm.app/docs/getting_started/installation)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  Since we're using mocked api server not an real one, you need to install *Mockoon* and import collection file here *mockoon/collection.json*
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  > Install Mockoon: [download](https://mockoon.com/download/)
+      
+  ### Now the fun part begins
+
+    git clone https://github.com/carlosgsrosa/basic_api_call_flutter.git
+    cd basic_api_call_flutter
+    fvm flutter run
+
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+License
+
+[MIT](https://choosealicense.com/licenses/mit/)
