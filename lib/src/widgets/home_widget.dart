@@ -21,6 +21,7 @@ class HomeWidget extends StatelessWidget {
           Padding(
               padding: EdgeInsets.all(16),
               child: Container(
+                width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
                   color: Colors.white70,
                   borderRadius: BorderRadius.circular(16),

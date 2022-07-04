@@ -1,7 +1,7 @@
 {
   "uuid": "77dcefb6-035d-4140-9ee7-f48dfcf2f719",
   "lastMigration": 20,
-  "name": "basic_api_call_flutter",
+  "name": "Basic Api Call",
   "endpointPrefix": "",
   "latency": 0,
   "port": 3002,
@@ -15,8 +15,8 @@
       "responses": [
         {
           "uuid": "ae48c4b4-e639-46b9-8073-52c9acbc64fb",
-          "body": "{\n  \"favorite\": {\n    \"patients\": [\n      {\n        \"name\": \"Gislene  Costa\",\n        \"medicalRecord\": \"1451931\",\n        \"age\": \"33a, 9m, 12d\"\n      },\n      {\n        \"name\": \"Maria de Fatima Fernandes Figueira\",\n        \"medicalRecord\": \"2845076\",\n        \"age\": \"67a, 1m, 20d\"\n      },\n      {\n        \"name\": \"Antonio Carlos Santoro\",\n        \"medicalRecord\": \"333292\",\n        \"age\": \"83a, 4m, 1d\"\n      },\n      {\n        \"name\": \"Artur Vitorio Savian\",\n        \"medicalRecord\": \"3836873\",\n        \"age\": \"62a, 4m, 12d\"\n      },\n      {\n        \"name\": \"Fernando Martinez Freyssinier\",\n        \"medicalRecord\": \"1139788\",\n        \"age\": \"64a, 5m, 9d\"\n      }\n    ],\n    \"doctors\": [\n      {\n        \"crm\": \"157313\",\n        \"name\": \"Guilherme Andrade Peixoto\",\n        \"primarySpecialty\": \"Urologia\",\n        \"specialty\": \"Urologia\"\n      },\n      {\n        \"crm\": \"109647\",\n        \"name\": \"Riguel Jun Inaoka\",\n        \"primarySpecialty\": \"Clínica Médica\",\n        \"specialty\": \"Clínica Médica\"\n      }\n    ]\n  }\n}",
-          "latency": 3000,
+          "body": "{\n  \"favorite\": {\n    \"patients\": [\n      {\n        \"name\": \"Amber Volakis\",\n        \"medicalRecord\": 1451931,\n        \"age\": 28\n      },\n      {\n        \"name\": \"President Dibala\",\n        \"medicalRecord\": 2845076,\n        \"age\": 75\n      },\n      {\n        \"name\": \"Robert Chase\",\n        \"medicalRecord\": 333292,\n        \"age\": 42\n      },\n      {\n        \"name\": \"Sister Mary Augustine\",\n        \"medicalRecord\": 3836873,\n        \"age\": null\n      },\n      {\n        \"name\": \"Medical History\",\n        \"medicalRecord\": 1139788,\n        \"age\": 12\n      }\n    ],\n    \"doctors\": [\n      {\n        \"crm\": \"157313\",\n        \"name\": \"Ben Casey\",\n        \"primarySpecialty\": \"Urologia\",\n        \"specialty\": \"Urologia\"\n      },\n      {\n        \"crm\": \"109647\",\n        \"name\": \"James Kildare\",\n        \"primarySpecialty\": \"Clínica Médica\",\n        \"specialty\": \"Clínica Médica\"\n      },\n      {\n        \"crm\": \"109648\",\n        \"name\": \"Steve Hardy\",\n        \"primarySpecialty\": \"Clínica Médica\",\n        \"specialty\": \"Internal medicine\"\n      }\n    ]\n  }\n}",
+          "latency": 1000,
           "statusCode": 200,
           "label": "",
           "headers": [],
